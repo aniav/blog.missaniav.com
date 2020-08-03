@@ -21,15 +21,17 @@ title: Home
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+    {% assign next_page = 'page' | concat: paginator.next_page %}
+    <a class="pagination-item older" href="{{ next_page | relative_url }}">Older</a>
   {% else %}
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
+    {% assign previous_page = 'page' | concat: paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+      <a class="pagination-item newer" href="{{ '/' | relative_url }}">Newer</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ previous_page | relative_url }}">Newer</a>
     {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>

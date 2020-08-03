@@ -1,9 +1,9 @@
-<div class="sidebar" style="background-image: url({{ site.baseurl }}{{ page.featured_image | default: site.sidebar_image}});">
+<div class="sidebar" style="background-image: url({{ page.featured_image | default: site.sidebar_image | relative_url }});">
   <div class="sidebar-overlay">
     <div class="container sidebar-sticky">
       <div class="sidebar-about">
         <h1>
-          <a href="{{ site.baseurl }}">
+          <a href="{{ '/' | relative_url }}">
             {{ site.title }}
           </a>
         </h1>
