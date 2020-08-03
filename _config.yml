@@ -9,9 +9,9 @@ permalink:        pretty
 title:            Ania Warzecha
 tagline:          'My adventures with code'
 description:      'My adventures with code'
-url:              https://blog.missaniav.com/
-baseurl:          ''
-sidebar_image:    /public/img/cover.jpg
+url:              https://blog.missaniav.com
+baseurl:          '/'
+sidebar_image:    public/img/cover.jpg
 
 author:
   name:           'Ania Warzecha'
