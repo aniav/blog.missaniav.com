@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Ania Warzecha
+tagline:          'My adventures with code'
+description:      'My adventures with code'
+url:              http://blog.missaniav.com
+baseurl:
+sidebar_image:    public/img/cover.jpg
+
+author:
+  name:           'Ania Warzecha'
+  url:            https://blog.missaniav.com
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+feed:
+  path: feed.xml
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-redirect-from
