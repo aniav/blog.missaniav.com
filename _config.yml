@@ -10,7 +10,7 @@ title:            Ania Warzecha
 tagline:          'My adventures with code'
 description:      'My adventures with code'
 url:              http://blog.missaniav.com
-baseurl:
+baseurl:          /
 sidebar_image:    public/img/cover.jpg
 
 author:

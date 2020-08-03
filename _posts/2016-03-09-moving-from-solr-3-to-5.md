@@ -2,7 +2,6 @@
 layout: post
 title: "Moving from Solr 3.x to Solr 5.5.x"
 date: 2016-03-09 22:07:00
-featured_image: public/img/cover.jpg
 ---
 
 I have spent a few days trying to translate the configs from a Solr 3.x instance to Solr 5.5.x. The process was a bit devastating and consumed a lot of time. I did a lot of googling and browsing the documentation but I haven’t found one place with all the information essential to get things going. This is a summary of what I have done and what might be helpful for others. Let’s go!
